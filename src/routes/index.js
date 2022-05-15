@@ -11,6 +11,7 @@ export default [
     element: <Home />,
     children: [
       {
+        // 子路由不加/
         path: 'news/:id/:title/:content',
         element: <News />,
       },
